@@ -114,14 +114,12 @@ def calculate_late_fee_for_book(patron_id: str, book_id: int) -> Dict:
     Calculate late fees for a specific book.
     
     TODO: Implement R5 as per requirements 
-    
-    
-    return { // return the calculated values
+    """
+    return {
         'fee_amount': 0.00,
         'days_overdue': 0,
         'status': 'Late fee calculation not implemented'
     }
-    """
 
 def search_books_in_catalog(search_term: str, search_type: str) -> List[Dict]:
     """

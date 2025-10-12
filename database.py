@@ -4,6 +4,7 @@ Handles all database operations and connections
 """
 
 import sqlite3
+import os
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple
 
@@ -12,7 +13,9 @@ DATABASE = 'library.db'
 
 def get_db_connection():
     """Get a database connection."""
-    conn = sqlite3.connect(DATABASE)
+    # Allow override of database file for testing
+    db_file = os.environ.get('DATABASE', DATABASE)
+    conn = sqlite3.connect(db_file)
     conn.row_factory = sqlite3.Row  # This enables column access by name
     return conn
 
