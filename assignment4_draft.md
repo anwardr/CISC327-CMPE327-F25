@@ -33,7 +33,7 @@ You may use **Playwright (Python)** or **Selenium (Python)** – other testing t
   4. Borrow the book using a patron ID
   5. Verify the borrow confirmation message appears
 - Include assertions verifying that expected UI elements/text appear.  
-- Tests must run automatically using a command (e.g., `pytest tests/e2e_test.py`).
+- Tests must run automatically using a command (e.g., `pytest tests/test_e2e.py`).
 
 ---
 
