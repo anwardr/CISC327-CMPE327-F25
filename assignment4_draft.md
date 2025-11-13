@@ -26,13 +26,14 @@ You may use **Playwright (Python)** or **Selenium (Python)** – other testing t
 
 #### Requirements  
 - The E2E test must launch a real browser session (headless or non-headless).  
-- Automate at least one realistic user flow, such as:  
-  1. Open home page  
-  2. Log in / register (if applicable)  
-  3. Add a book to the library  
-  4. Search for the book and verify its presence  
+- Automate **at least two** realistic user flow, such as:  
+  1. Add a new book to the catalog (fill title, author, ISBN, copies)
+  2. Verify the book appears in the catalog
+  3. Navigate to borrow book page
+  4. Borrow the book using a patron ID
+  5. Verify the borrow confirmation message appears
 - Include assertions verifying that expected UI elements/text appear.  
-- Tests must run automatically using a command (e.g., `pytest tests/e2e_test.py`).  
+- Tests must run automatically using a command (e.g., `pytest tests/e2e_test.py`).
 
 ---
 
