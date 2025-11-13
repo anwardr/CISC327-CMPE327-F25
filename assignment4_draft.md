@@ -1,7 +1,7 @@
 # Assignment 4 – End-to-End Testing and Application Containerization
 
 **Course:** CISC/CMPE-327 – Software Quality Assurance  
-**Total Marks:** 10 | **Due Date:** ____ November 2025  
+**Total Marks:** 10 | **Due Date:** 30 November 2025  
 
 ---
 
