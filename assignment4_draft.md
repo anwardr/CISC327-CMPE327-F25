@@ -91,7 +91,7 @@ Push your full project (with Flask code, E2E tests, and Dockerfile) to your GitH
 
 ```
 /tests
-    ├─ test_e2e_playwright.py or test_e2e_selenium.py
+    ├─ test_e2e.py
 Dockerfile
 requirements.txt
 ```
