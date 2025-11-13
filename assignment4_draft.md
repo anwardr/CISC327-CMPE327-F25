@@ -9,7 +9,7 @@
 
 This assignment extends the *Library Management System* project from previous labs and assignments. It introduces **browser-based end-to-end (E2E) testing** and **application containerization**.  
 
-In the first part, you will design and execute automated E2E tests that simulate real user behavior on your Flask-based web application (e.g., logging in, adding books, viewing records).  
+In the first part, you will design and execute automated E2E tests that simulate real user behavior on your Flask-based web application (e.g., adding books, viewing records).  
 In the second part, you will containerize your application using **Docker** to ensure it runs consistently across environments.  
 Finally, you will deploy your Docker image to **Docker Hub** to demonstrate reproducibility and delivery readiness.
 
